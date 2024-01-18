@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringJenkinsApplication {
 
-//get call
 	@GetMapping("/ping")
 	public String message() {
 		return "Wao!! Application Deployed successfully in SAP Cloud..";
